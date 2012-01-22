@@ -15,12 +15,8 @@ IUSE=""
 
 RDEPEND="${DEPEND}
     dev-lang/ruby
-	www-client/w3m
+    www-client/w3m
 "
-
-#src_compile() {
-#	return true;
-#}
 
 src_install() {
 	newbin checkip.rb checkip
