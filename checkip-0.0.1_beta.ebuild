@@ -3,7 +3,6 @@
 # $Header: $
 
 EAPI=1
-inherit eutils
 
 DESCRIPTION="This is a tiny current ip checking tool."
 HOMEPAGE="https://github.com/grauwoelfchen/checkip"
@@ -15,13 +14,14 @@ KEYWORDS="~x86"
 IUSE=""
 
 RDEPEND="${DEPEND}
-	www-client/w3m"
+    dev-lang/ruby
+	www-client/w3m
+"
 
-src_compile() {
-	cp checkip.rb checkip
-	return true;
-}
+#src_compile() {
+#	return true;
+#}
 
 src_install() {
-	dobin checkip
+	newbin checkip.rb checkip
 }
