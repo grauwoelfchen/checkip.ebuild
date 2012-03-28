@@ -12,6 +12,7 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~x86"
 IUSE=""
+USE_RUBY="ruby18 ruby19"
 
 RDEPEND="${DEPEND}
     dev-lang/ruby

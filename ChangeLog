@@ -2,7 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
-*checkip-0.0.1-beta (22 Jan 2012)
+
+*checkip-0.0.1-beta (28 Mar 2012)
+  28 Mar 2012; Yasuhiro Asaka <y.grauwoelfchen@gmail.com> checkup-0.0.1-beta:
+  Added USE_RUBY
+
   22 Jan 2012; Yasuhiro Asaka <y.grauwoelfchen@gmail.com> +checkip-0.0.1-beta,
   +ChangeLog:
   Initial import :)
