@@ -3,6 +3,10 @@
 # $Header: $
 
 
+*checkip-0.0.2-beta (04 Nov 2012)
+  04 Nov 2012; Yasuhiro Asaka <grauwoelfchen@gmail.com> checkup-0.0.2-beta:
+	Changed subdomain of server application on heroku
+
 *checkip-0.0.1-beta (28 Mar 2012)
   28 Mar 2012; Yasuhiro Asaka <grauwoelfchen@gmail.com> checkup-0.0.1-beta:
   Added USE_RUBY
